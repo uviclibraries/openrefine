@@ -91,4 +91,4 @@ parent: Workshop Activities
 2.  If you want to export your work in OpenRefine so that you can resume it on another computer, click the Export button in the top-right corner, then select “Export project”. You will have the option to save the file to a local directory, or to Google Drive.
 3.  If you are finished cleaning your data, you can choose to export a file with the current settings enabled. the Export button in the top-right corner, then select your preferred format (e.g. Excel (.xls), Tab-separated value, etc.).
 
-[NEXT STEP: AAA](act-2.html){: .btn .btn-blue }
+[NEXT STEP: Test Yourself](act-2.html){: .btn .btn-blue }
