@@ -20,4 +20,4 @@ parent: Workshop Activities
 4.  Split entries in the “decimal latitude decimal longitude” fields into new columns, and rename the new columns
 5.  Split entries in “verbatim locality” field and then Join the province and region data into a new field titled “Region”
 
-{button}
+[NEXT STEP: Earn a Workshop Badge](informal-credentials.html){: .btn .btn-blue }
