@@ -19,6 +19,9 @@ parent: Workshop Activities
     Note: Although the OpenRefine application will open in your default browser window, it is being run locally and data is not being uploaded or shared online.
 2.  The first page you will see is the data import page. We will be creating a new project by importing a data file. Make sure that “Create Project” is highlighted in the left-most menu.
 3.  OpenRefine allows you to connect to either local or online sources. We will be uploading a local *.txt file.
+
+    <img src="images/2c.png" alt="" style="width:720px;">
+
 4.  Under the “Get data from” heading, select “This Computer” and click “Choose Files…”
 5.  In the window that opens, navigate to the “Samuel Maclure Metadata.txt”, file select it and click “Open”.
 6.  Back in the OpenRefine window, click “Next »”
@@ -26,17 +29,26 @@ parent: Workshop Activities
 8.  Our file organizes the data contained by tab-separated values (TSV). Under the “Parse data as” menu, select “CSV / TSV / separator-based files”.
 9.  Now that your import settings are set up, you can click “Create Project »” in the top right corner.
 
+    <img src="images/2i.gif" alt="" style="width:720px;">
+
 ## C) Exploring Your Data
 
 1.  Once the data is imported into OpenRefine, you should see that 4329 rows have been identified. However, OpenRefine only allows you to display up to 50 rows at a time in the display window. You can modify how many rows you want displayed in the top toolbar.
+
+    <img src="images/3c.png" alt="" style="float:right;width:180px;">
+
 2.  Read through all the column headings and examine the data in the rows underneath. Do they make sense? Are there any typos?
 3.  The first column heading “??Title” has a typo in it. To change it, click the arrow next to the heading. In the drop-down box that appears, hover over “Edit column” and then select “Rename this column”. In the dialogue box that appears, change the column name to “Title” and select “OK”.
+
+    <img src="images/3cc.gif" alt="" style="width:720px;">
 
 ## D) Undo / Redo
 
 1.  You can undo your actions by clicking on your history in the Undo / Redo tab (far-left menu, next to Facet / Filter).
 
 ## E) Faceting
+
+    <img src="images/5a.png" alt="" style="float:right;width:180px;">
 
 1.  You can inspect the different data values in each column by displaying them in facets. For example, to see how many Creators are represented in the dataset, click the drop-down arrow next to the “Creator” column, hover over “Facet”, and select “Text facet”.
 2.  A box listing all unique values in the Creator column should appear in the left panel, with counts listed. You can filter your data by clicking on one of the values listed.
