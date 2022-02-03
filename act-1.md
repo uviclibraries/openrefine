@@ -45,14 +45,14 @@ parent: Workshop Activities
 
 -   You can undo your actions by clicking on your history in the Undo / Redo tab (far-left menu, next to Facet / Filter).
 
-## E) Faceting
+    <img src="images/5a.png" alt="" style="float:right;width:360px;margin-left:10px;">
 
-<img src="images/5c.png" alt="" style="float:right;width:300px;margin-left:10px;">
+## E) Faceting
 
 1.  You can inspect the different data values in each column by displaying them in facets. For example, to see how many Creators are represented in the dataset, click the drop-down arrow next to the “Creator” column, hover over “Facet”, and select “Text facet”.
 2.  A box listing all unique values in the Creator column should appear in the left panel, with counts listed. You can filter your data by clicking on one of the values listed.
 
-    <img src="images/5a.png" alt="" style="width:720px;">
+    <img src="images/5c.png" alt="" style="width:300px;">
 
 3.  To undo any filters applied to your data, click the “Reset All” button.
 
@@ -89,16 +89,16 @@ parent: Workshop Activities
 
 ## H) Splitting
 
-<img src="images/8c.png" alt="" style="float:right;width:360px;margin-left:10px;">
+<img src="images/8c.png" alt="" style="float:right;width:480px;margin-left:10px;">
 
 1.  Sometimes you need to split apart information that is contained in the same cell into separate columns. Create a text facet for the “Extent” column.
 2.  Scanning the choices in the facet, it appears that information in this column follows the format: Number of objects : Medium ; Dimensions. 
 3.  Click the drop down arrow next to the “Extent” column heading. Hover over “Edit column” and select “Split into several columns…”
 4.  In the menu that appears, specify that column will be split by separator, and input a colon “:” into the text box.
-
-    <img src="images/8e.png" alt="" style="float:right;width:360px;margin-left:10px;">
-
 5.  Under the “After Splitting” heading, uncheck the “Remove this column” option. Click OK.
+
+    <img src="images/8e.png" alt="" style="width:480px;">
+
 6.  Two new columns will have been created called “Extent 1” and “Extent 2”.
 
     <img src="images/8f.gif" alt="" style="width:720px;">
@@ -137,4 +137,4 @@ parent: Workshop Activities
 2.  If you want to export your work in OpenRefine so that you can resume it on another computer, click the Export button in the top-right corner, then select “Export project”. You will have the option to save the file to a local directory, or to Google Drive.
 3.  If you are finished cleaning your data, you can choose to export a file with the current settings enabled. the Export button in the top-right corner, then select your preferred format (e.g. Excel (.xls), Tab-separated value, etc.).
 
-[NEXT STEP: Test Yourself](act-2.html){: .btn .btn-blue }
+<br>[NEXT STEP: Test Yourself](act-2.html){: .btn .btn-blue }
