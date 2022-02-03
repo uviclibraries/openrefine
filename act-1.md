@@ -52,7 +52,7 @@ parent: Workshop Activities
 1.  You can inspect the different data values in each column by displaying them in facets. For example, to see how many Creators are represented in the dataset, click the drop-down arrow next to the “Creator” column, hover over “Facet”, and select “Text facet”.
 2.  A box listing all unique values in the Creator column should appear in the left panel, with counts listed. You can filter your data by clicking on one of the values listed.
 
-    <img src="images/5a.png" alt="" style="float:right;width:360px;">
+    <img src="images/5a.png" alt="" style="width:360px;">
 
 3.  To undo any filters applied to your data, click the “Reset All” button.
 
