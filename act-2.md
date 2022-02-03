@@ -7,12 +7,12 @@ parent: Workshop Activities
 
 # Test Yourself: Cleaning Data With OpenRefine
 
-## Putting Your Skills to the Test
+### Putting Your Skills to the Test
 
-1.  Download the McTaggart Cowan dataset [here](http://bit.ly/2oCxXN4){:target="_blank"}
+1.  Download the [McTaggart Cowan dataset.](http://bit.ly/2oCxXN4){:target="_blank"}
 2.  Clean up this spreadsheet using the skills learned in previous activity.
 
-## Suggested Actions:
+### Suggested Actions:
 
 1.  Create facets to learn about the fields
 2.  Identify and remove blank rows
