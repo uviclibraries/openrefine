@@ -33,7 +33,7 @@ parent: Workshop Activities
 
 ## C) Exploring Your Data
 
-<img src="images/3c.png" alt="" style="float:right;width:360px;">
+<img src="images/3c.png" alt="" style="float:right;width:360px;margin-left:10px;">
 
 1.  Once the data is imported into OpenRefine, you should see that 4329 rows have been identified. However, OpenRefine only allows you to display up to 50 rows at a time in the display window. You can modify how many rows you want displayed in the top toolbar.
 2.  Read through all the column headings and examine the data in the rows underneath. Do they make sense? Are there any typos?
@@ -43,11 +43,11 @@ parent: Workshop Activities
 
 ## D) Undo / Redo
 
-1.  You can undo your actions by clicking on your history in the Undo / Redo tab (far-left menu, next to Facet / Filter).
+-   You can undo your actions by clicking on your history in the Undo / Redo tab (far-left menu, next to Facet / Filter).
 
 ## E) Faceting
 
-<img src="images/5c.png" alt="" style="float:right;width:180px;">
+<img src="images/5c.png" alt="" style="float:right;width:180px;margin-left:10px;">
 
 1.  You can inspect the different data values in each column by displaying them in facets. For example, to see how many Creators are represented in the dataset, click the drop-down arrow next to the “Creator” column, hover over “Facet”, and select “Text facet”.
 
@@ -60,7 +60,7 @@ parent: Workshop Activities
 
 ## F) Clustering and Standardizing
 
-<img src="images/6a.png" alt="" style="float:right;width:180px;">
+<img src="images/6a.png" alt="" style="float:right;width:180px;margin-left:10px;">
 
 1.  Create a text facet for the “Language” column. There are three choices: “eng”; “English”; and “english”. Let’s make these consistent across cells.
 2.  Click the “Cluster” button in the Language facet.
@@ -75,13 +75,13 @@ parent: Workshop Activities
 
 ## G) Removing Blank Rows
 
-<img src="images/7c.png" alt="" style="float:right;width:180px;">
+<img src="images/7c.png" alt="" style="float:right;width:180px;margin-left:10px;">
 
 1.  Looking at your data in the display window, we see that there are a number of empty rows separating our data.
 2.  Let’s search the file for rows with cells that are all blank. Click the dropdown arrow next to “All” (far left). Hover your cursor over Facet, and select Facet by blank (null or empty string).
 3.  In the facet that appears, you should see 2165 values for which this condition is “True”, and 2164 values for which this facet is “False”. Since we want to remove rows that do not have an ID, let’s include only cells for which this condition is true. Hover your mouse over the true option, and select “include”.
 
-    <img src="images/7d.png" alt="" style="float:right;width:180px;">
+    <img src="images/7d.png" alt="" style="float:right;width:180px;margin-left:10px;">
 
 4.  Now we need to remove these blank rows from the data set. Click the dropdown arrow next to “All” (far left). Hover over Edit rows and select Remove all matching rows. This removes all rows that match our filter.
 
@@ -89,14 +89,14 @@ parent: Workshop Activities
 
 ## H) Splitting
 
-<img src="images/8c.png" alt="" style="float:right;width:180px;">
+<img src="images/8c.png" alt="" style="float:right;width:180px;margin-left:10px;">
 
 1.  Sometimes you need to split apart information that is contained in the same cell into separate columns. Create a text facet for the “Extent” column.
 2.  Scanning the choices in the facet, it appears that information in this column follows the format: Number of objects : Medium ; Dimensions. 
 3.  Click the drop down arrow next to the “Extent” column heading. Hover over “Edit column” and select “Split into several columns…”
 4.  In the menu that appears, specify that column will be split by separator, and input a colon “:” into the text box.
 
-    <img src="images/8e.png" alt="" style="float:right;width:180px;">
+    <img src="images/8e.png" alt="" style="float:right;width:180px;margin-left:10px;">
 
 5.  Under the “After Splitting” heading, uncheck the “Remove this column” option. Click OK.
 6.  Two new columns will have been created called “Extent 1” and “Extent 2”.
@@ -131,7 +131,7 @@ parent: Workshop Activities
 
 ## K) Saving and Exporting
 
-<img src="images/11b.png" alt="" style="float:right;width:180px;">
+<img src="images/11b.png" alt="" style="float:right;width:180px;margin-left:10px;">
 
 1.  OpenRefine saves your progress automatically.
 2.  If you want to export your work in OpenRefine so that you can resume it on another computer, click the Export button in the top-right corner, then select “Export project”. You will have the option to save the file to a local directory, or to Google Drive.
