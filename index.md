@@ -4,7 +4,7 @@ title: Introduction
 nav_order: 1
 ---
 
-<img src="images/logo.png" style="float:right;width:180px;" alt="logo">
+<img src="images/logo.png" style="float:right;width:240px;" alt="logo">
 
 # Data Wrangling (Or Cleaning) With OpenRefine
 
