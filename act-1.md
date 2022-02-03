@@ -7,13 +7,13 @@ parent: Workshop Activities
 
 # Cleaning Data With OpenRefine
 
-## A) Download and Installation
+### A) Download and Installation
 
 1.  Download OpenRefine 3.3 from [this website.](http://openrefine.org/download.html){:target="_blank"}
 2.  Follow the [installation instructions](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions){:target="_blank"} for your Operating System.
 3.  Download the [Samuel Maclure dataset.](https://drive.google.com/file/d/1ojvI40AOyiPTd_C5FiAT1hdOCQOXB5BI/view?usp=sharing){:target="_blank"}
 
-## B) Importing Data Into OpenRefine and Navigating the Interface
+### B) Importing Data Into OpenRefine and Navigating the Interface
 
 1.  Run the OpenRefine app (or double click on the `openrefine.exe` file).<br>
     <mark><b>Note:</b> Although the OpenRefine application will open in your default browser window, it is being run locally and data is not being uploaded or shared online.</mark>
@@ -31,7 +31,7 @@ parent: Workshop Activities
 
     <img src="images/2i.gif" alt="creating project" style="width:720px;">
 
-## C) Exploring Your Data
+### C) Exploring Your Data
 
 <img src="images/3c.png" alt="renaming column" style="float:right;width:360px;margin-left:10px;">
 
@@ -41,13 +41,13 @@ parent: Workshop Activities
 
     <img src="images/3cc.gif" alt="renaming column animated" style="width:720px;">
 
-## D) Undo / Redo
+### D) Undo / Redo
 
 -   You can undo your actions by clicking on your history in the Undo / Redo tab (far-left menu, next to Facet / Filter).
 
     <img src="images/5c.png" alt="facet filter menu" style="float:right;width:300px;margin-left:10px;">
 
-## E) Faceting
+### E) Faceting
 
 1.  You can inspect the different data values in each column by displaying them in facets. For example, to see how many Creators are represented in the dataset, click the drop-down arrow next to the **Creator** column, hover over **Facet**, and select **Text facet**.
 2.  A box listing all unique values in the Creator column should appear in the left panel, with counts listed. You can filter your data by clicking on one of the values listed.
@@ -57,7 +57,7 @@ parent: Workshop Activities
 
     <img src="images/5cc.gif" alt="filtering results" style="width:720px;">
 
-## F) Clustering and Standardizing
+### F) Clustering and Standardizing
 
 <img src="images/6a.png" alt="cluster button" style="float:right;width:360px;margin-left:10px;">
 
@@ -72,7 +72,7 @@ parent: Workshop Activities
 
     <img src="images/6e.gif" alt="rename columns and merge" style="width:720px;">
 
-## G) Removing Blank Rows
+### G) Removing Blank Rows
 
 <img src="images/7c.png" alt="blank rows" style="float:right;width:360px;margin-left:10px;">
 
@@ -86,7 +86,7 @@ parent: Workshop Activities
 
     <img src="images/7dd.gif" alt="removing blank rows" style="width:720px;">
 
-## H) Splitting
+### H) Splitting
 
 <img src="images/8c.png" alt="splitting columns in menus" style="float:right;width:480px;margin-left:10px;">
 
@@ -107,7 +107,7 @@ parent: Workshop Activities
 
     <img src="images/8h.gif" alt="splitting columns animated continued" style="width:720px;">
 
-## I) Trimming Blank Spaces
+### I) Trimming Blank Spaces
 
 1.  Notice how the new extent columns have leading white spaces? We can get rid of these easily.
 2.  Click the drop-down arrow on the “Medium” column. Hover over **Edit cells -> Common transforms -> Trim leading and trailing whitespace**.
@@ -115,7 +115,7 @@ parent: Workshop Activities
 
     <img src="images/9c.gif" alt="trimming blank spaces animated" style="width:720px;">
 
-## J) Joining
+### J) Joining
 
 1.  Rather than rely on menus to perform functions in OpenRefine, you can also clean your data using GREL (Google Refine Expression Language). Using this syntax also allows you to perform more complex functions, as your skills and needs grow. (Here is a nice cheat sheet on GREL: [https://guides.library.illinois.edu/openrefine/grel](https://guides.library.illinois.edu/openrefine/grel){:target="_blank"})
 2.  Joining columns requires the use of GREL regular expressions. Let’s join the **Type of Material** column with our new **Number of Objects** column. Go to the **Type of Material** column, click the drop down arrow, hover your cursor over **Edit cells** and then choose **Transform**.
@@ -130,7 +130,7 @@ parent: Workshop Activities
     
     <img src="images/11b.png" alt="export" style="float:right;width:360px;margin-left:10px;">
 
-## K) Saving and Exporting
+### K) Saving and Exporting
 
 1.  OpenRefine saves your progress automatically.
 2.  If you want to export your work in OpenRefine so that you can resume it on another computer, click the **Export** button in the top-right corner, then select **Export project**. You will have the option to save the file to a local directory, or to Google Drive.
