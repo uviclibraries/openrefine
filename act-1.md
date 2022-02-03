@@ -20,7 +20,7 @@ parent: Workshop Activities
 2.  The first page you will see is the data import page. We will be creating a new project by importing a data file. Make sure that “Create Project” is highlighted in the left-most menu.
 3.  OpenRefine allows you to connect to either local or online sources. We will be uploading a local *.txt file.
 
-    <img src="images/2c.png" alt="" style="width:720px;">
+    <img src="images/2c.png" alt="getting started" style="width:720px;">
 
 4.  Under the “Get data from” heading, select **This Computer** and click **Choose Files…**
 5.  In the window that opens, navigate to the **“Samuel Maclure Metadata.txt”** file, select it and click **Open**.
@@ -29,23 +29,23 @@ parent: Workshop Activities
 8.  Our file organizes the data contained by tab-separated values (TSV). Under the **Parse data as** menu, select **CSV / TSV / separator-based files**.
 9.  Now that your import settings are set up, you can click **Create Project** in the top right corner.
 
-    <img src="images/2i.gif" alt="" style="width:720px;">
+    <img src="images/2i.gif" alt="creating project" style="width:720px;">
 
 ## C) Exploring Your Data
 
-<img src="images/3c.png" alt="" style="float:right;width:360px;margin-left:10px;">
+<img src="images/3c.png" alt="renaming column" style="float:right;width:360px;margin-left:10px;">
 
 1.  Once the data is imported into OpenRefine, you should see that 4329 rows have been identified. However, OpenRefine only allows you to display up to 50 rows at a time in the display window. You can modify how many rows you want displayed in the top toolbar.
 2.  Read through all the column headings and examine the data in the rows underneath. Do they make sense? Are there any typos?
 3.  The first column heading “??Title” has a typo in it. To change it, click the arrow next to the heading. In the drop-down box that appears, hover over **Edit column** and then select **Rename this column**. In the dialogue box that appears, change the column name to **"Title”** and select **OK**.
 
-    <img src="images/3cc.gif" alt="" style="width:720px;">
+    <img src="images/3cc.gif" alt="renaming column animated" style="width:720px;">
 
 ## D) Undo / Redo
 
 -   You can undo your actions by clicking on your history in the Undo / Redo tab (far-left menu, next to Facet / Filter).
 
-    <img src="images/5c.png" alt="" style="float:right;width:300px;margin-left:10px;">
+    <img src="images/5c.png" alt="facet filter menu" style="float:right;width:300px;margin-left:10px;">
 
 ## E) Faceting
 
@@ -53,42 +53,42 @@ parent: Workshop Activities
 2.  A box listing all unique values in the Creator column should appear in the left panel, with counts listed. You can filter your data by clicking on one of the values listed.
 3.  To undo any filters applied to your data, click the **Reset All** button.
 
-    <img src="images/5a.png" alt="" style="width:480px;">
+    <img src="images/5a.png" alt="opening the facet filter menu" style="width:480px;">
 
-    <img src="images/5cc.gif" alt="" style="width:720px;">
+    <img src="images/5cc.gif" alt="filtering results" style="width:720px;">
 
 ## F) Clustering and Standardizing
 
-<img src="images/6a.png" alt="" style="float:right;width:360px;margin-left:10px;">
+<img src="images/6a.png" alt="cluster button" style="float:right;width:360px;margin-left:10px;">
 
 1.  Create a text facet for the **Language** column. There are three choices: “eng”; “English”; and “english”. Let’s make these consistent across cells.
 2.  Click the **Cluster** button in the Language facet.
 3.  A window should appear for clustering and editing values in the column. This feature helps you find groups of cell values the program identifies as likely representing the same thing.
 4.  By default, OpenRefine proposes the most frequent value be used as the new value across the identified cells. However, you have the option of selecting another value, or proposing a new one. Let’s use the default “english”, for now. Select the checkbox under **Merge?** and then click **Merge Selected & Close**.
 
-    <img src="images/6d.png" alt="" style="width:720px;">
+    <img src="images/6d.png" alt="cluster menu" style="width:720px;">
 
 5.  In the Language facet, you should now see only two choices: “eng” and “english”. You can also alter values directly in the facet. Let’s modify “eng” to read “english”. Hover your cursor over the “eng” option and click on the **edit** link that appears. In the text box that pops up, write “english”. Click **OK**.
 
-    <img src="images/6e.gif" alt="" style="width:720px;">
+    <img src="images/6e.gif" alt="rename columns and merge" style="width:720px;">
 
 ## G) Removing Blank Rows
 
-<img src="images/7c.png" alt="" style="float:right;width:360px;margin-left:10px;">
+<img src="images/7c.png" alt="blank rows" style="float:right;width:360px;margin-left:10px;">
 
 1.  Looking at your data in the display window, we see that there are a number of empty rows separating our data.
 2.  Let’s search the file for rows with cells that are all blank. Click the dropdown arrow next to **All** (far left). Hover your cursor over **Facet**, and select **Facet by blank (null or empty string)**.
 
-    <img src="images/7d.png" alt="" style="float:right;width:360px;margin-left:10px;">
+    <img src="images/7d.png" alt="edit rows menu" style="float:right;width:360px;margin-left:10px;">
 
 3.  In the facet that appears, you should see 2165 values for which this condition is “True”, and 2164 values for which this facet is “False”. Since we want to remove rows that do not have an ID, let’s include only cells for which this condition is true. Hover your mouse over the true option, and select **include**.
 4.  Now we need to remove these blank rows from the data set. Click the dropdown arrow next to **All** (far left). Hover over **Edit rows** and select **Remove all matching rows**. This removes all rows that match our filter.
 
-    <img src="images/7dd.gif" alt="" style="width:720px;">
+    <img src="images/7dd.gif" alt="removing blank rows" style="width:720px;">
 
 ## H) Splitting
 
-<img src="images/8c.png" alt="" style="float:right;width:480px;margin-left:10px;">
+<img src="images/8c.png" alt="splitting columns in menus" style="float:right;width:480px;margin-left:10px;">
 
 1.  Sometimes you need to split apart information that is contained in the same cell into separate columns. Create a **text facet** for the **Extent** column.
 2.  Scanning the choices in the facet, it appears that information in this column follows the format: Number of objects : Medium ; Dimensions. 
@@ -96,16 +96,16 @@ parent: Workshop Activities
 4.  In the menu that appears, specify that column will be split by separator, and input a colon **“:”** into the text box.
 5.  Under the **After Splitting** heading, uncheck the **Remove this column** option. Click **OK**.
 
-    <img src="images/8e.png" alt="" style="width:480px;">
+    <img src="images/8e.png" alt="split column pop up" style="width:480px;">
 
 6.  Two new columns will have been created called “Extent 1” and “Extent 2”.
 
-    <img src="images/8f.gif" alt="" style="width:720px;">
+    <img src="images/8f.gif" alt="splitting columns animated" style="width:720px;">
 
 7.  Repeat this same process on the “Extent 2” column, this time specifying a semi-colon **“;”** as the separator character, and keep **Remove this column** checked.
 8.  Rename your 3 new columns as follows: **“Number of objects”, “Medium” and “Dimensions”**.
 
-    <img src="images/8h.gif" alt="" style="width:720px;">
+    <img src="images/8h.gif" alt="splitting columns animated continued" style="width:720px;">
 
 ## I) Trimming Blank Spaces
 
@@ -113,7 +113,7 @@ parent: Workshop Activities
 2.  Click the drop-down arrow on the “Medium” column. Hover over **Edit cells -> Common transforms -> Trim leading and trailing whitespace**.
 3.  Repeat for the “Dimensions” column.
 
-    <img src="images/9c.gif" alt="" style="width:720px;">
+    <img src="images/9c.gif" alt="trimming blank spaces animated" style="width:720px;">
 
 ## J) Joining
 
@@ -126,9 +126,9 @@ parent: Workshop Activities
 5.  To combine column information AND additional strings, use a “+.” For example: `value + " (" + cells['Number of objects'].value + ")"`
     -   Watch the preview area below to see the transformation. Click **OK** when satisfied with the result.
 
-    <img src="images/10e.gif" alt="" style="width:720px;">
+    <img src="images/10e.gif" alt="combining columns animated" style="width:720px;">
     
-    <img src="images/11b.png" alt="" style="float:right;width:360px;margin-left:10px;">
+    <img src="images/11b.png" alt="export" style="float:right;width:360px;margin-left:10px;">
 
 ## K) Saving and Exporting
 
