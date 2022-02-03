@@ -5,8 +5,10 @@ nav_order: 10
 ---
 # Additional Resources & Acknowledgements
 
-## WORKSHOP NAME HERE Resources
-
+## OpenRefine Resources
+- [Using OpenRefine Guidebook](http://ezproxy.library.uvic.ca/login?url=http://search.ebscohost.com/login.aspx?direct=true&scope=site&db=nlebk&db=nlabk&AN=639455){:target="_blank"} (E-Book available from UVic Libraries)
+- [Online Guide to OpenRefine](https://guides.library.illinois.edu/openrefine/grel){:target="_blank"} (University of Illinois Urbana Champaign Library)
+- [GREL Recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes){:target="_blank"} (OpenRefine GitHub Webpage)
 
 ## Acknowledgements
 
