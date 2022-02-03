@@ -48,43 +48,74 @@ parent: Workshop Activities
 
 ## E) Faceting
 
-    <img src="images/5a.png" alt="" style="float:right;width:180px;">
+    <img src="images/5c.png" alt="" style="float:right;width:180px;">
 
 1.  You can inspect the different data values in each column by displaying them in facets. For example, to see how many Creators are represented in the dataset, click the drop-down arrow next to the “Creator” column, hover over “Facet”, and select “Text facet”.
+
+    <img src="images/5a.png" alt="" style="width:180px;">
+
 2.  A box listing all unique values in the Creator column should appear in the left panel, with counts listed. You can filter your data by clicking on one of the values listed.
 3.  To undo any filters applied to your data, click the “Reset All” button.
 
+    <img src="images/5cc.gif" alt="" style="width:720px;">
+
 ## F) Clustering and Standardizing
+
+    <img src="images/6a.png" alt="" style="float:right;width:180px;">
 
 1.  Create a text facet for the “Language” column. There are three choices: “eng”; “English”; and “english”. Let’s make these consistent across cells.
 2.  Click the “Cluster” button in the Language facet.
 3.  A window should appear for clustering and editing values in the column. This feature helps you find groups of cell values the program identifies as likely representing the same thing.
 4.  By default, OpenRefine proposes the most frequent value be used as the new value across the identified cells. However, you have the option of selecting another value, or proposing a new one. Let’s use the default “english”, for now. Select the checkbox under “Merge?” and then click “Merge Selected & Close”.
+
+    <img src="images/6d.png" alt="" style="width:720px;">
+
 5.  In the Language facet, you should now see only two choices: “eng” and “english”. You can also alter values directly in the facet. Let’s modify “eng” to read “english”. Hover your cursor over the “eng” option and click on the “edit” link that appears. In the text box that pops up, write “english”. Click OK.
 
+    <img src="images/6e.gif" alt="" style="width:720px;">
+
 ## G) Removing Blank Rows
+
+    <img src="images/7c.png" alt="" style="float:right;width:180px;">
 
 1.  Looking at your data in the display window, we see that there are a number of empty rows separating our data.
 2.  Let’s search the file for rows with cells that are all blank. Click the dropdown arrow next to “All” (far left). Hover your cursor over Facet, and select Facet by blank (null or empty string).
 3.  In the facet that appears, you should see 2165 values for which this condition is “True”, and 2164 values for which this facet is “False”. Since we want to remove rows that do not have an ID, let’s include only cells for which this condition is true. Hover your mouse over the true option, and select “include”.
+
+    <img src="images/7d.png" alt="" style="float:right;width:180px;">
+
 4.  Now we need to remove these blank rows from the data set. Click the dropdown arrow next to “All” (far left). Hover over Edit rows and select Remove all matching rows. This removes all rows that match our filter.
 
+    <img src="images/7dd.gif" alt="" style="width:720px;">
+
 ## H) Splitting
+
+    <img src="images/8c.png" alt="" style="float:right;width:180px;">
 
 1.  Sometimes you need to split apart information that is contained in the same cell into separate columns. Create a text facet for the “Extent” column.
 2.  Scanning the choices in the facet, it appears that information in this column follows the format: Number of objects : Medium ; Dimensions. 
 3.  Click the drop down arrow next to the “Extent” column heading. Hover over “Edit column” and select “Split into several columns…”
 4.  In the menu that appears, specify that column will be split by separator, and input a colon “:” into the text box.
+
+    <img src="images/8e.png" alt="" style="float:right;width:180px;">
+
 5.  Under the “After Splitting” heading, uncheck the “Remove this column” option. Click OK.
 6.  Two new columns will have been created called “Extent 1” and “Extent 2”.
+
+    <img src="images/8f.gif" alt="" style="width:720px;">
+
 7.  Repeat this same process on the “Extent 2” column, this time specifying a semi-colon “;” as the separator character, and keep “Remove this column” checked.
 8.  Rename your 3 new columns as follows: “Number of objects”, “Medium” and “Dimensions”.
+
+    <img src="images/8h.gif" alt="" style="width:720px;">
 
 ## I) Trimming Blank Spaces
 
 1.  Notice how the new extent columns have leading white spaces? We can get rid of these easily.
 2.  Click the drop-down arrow on the “Medium” column. Hover over Edit cells > Common transforms > Trim leading and trailing whitespace.
 3.  Repeat for the “Dimensions” column.
+
+    <img src="images/9c.gif" alt="" style="width:720px;">
 
 ## J) Joining
 
@@ -97,7 +128,11 @@ parent: Workshop Activities
 5.  To combine column information AND additional strings, use a “+.” For example: value + " (" + cells['Number of objects'].value + ")"
     -   Watch the preview area below to see the transformation. Click “OK” when satisfied with the result.
 
+    <img src="images/10e.gif" alt="" style="width:720px;">
+
 ## K) Saving and Exporting
+
+    <img src="images/11b.png" alt="" style="float:right;width:180px;">
 
 1.  OpenRefine saves your progress automatically.
 2.  If you want to export your work in OpenRefine so that you can resume it on another computer, click the Export button in the top-right corner, then select “Export project”. You will have the option to save the file to a local directory, or to Google Drive.
