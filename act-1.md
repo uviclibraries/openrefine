@@ -11,7 +11,7 @@ parent: Workshop Activities
 
 1.  Download OpenRefine 3.3 from [this website.](http://openrefine.org/download.html){:target="_blank"}
 2.  Follow the [installation instructions](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions){:target="_blank"} for your Operating System.
-3.  Download the [Samuel Maclure dataset.](https://drive.google.com/file/d/1ojvI40AOyiPTd_C5FiAT1hdOCQOXB5BI/view?usp=sharing){:target="_blank"}
+3.  Download the <a href="resources/Samuel_Maclure_Metadata_OpenRefine2.txt" download>Samuel Maclure dataset.</a>
 
 ### B) Importing Data Into OpenRefine and Navigating the Interface
 
