@@ -9,7 +9,7 @@ parent: Workshop Activities
 
 ### Putting Your Skills to the Test
 
-1.  Download the [McTaggart Cowan dataset.](http://bit.ly/2oCxXN4){:target="_blank"}
+1.  Download the <a href="resources/McTaggartCowanSkeletons_3D_OpenRefine.xlsx" download>McTaggart Cowan dataset.</a>
 2.  Clean up this spreadsheet using the skills learned in previous activity.
 
 ### Suggested Actions:
