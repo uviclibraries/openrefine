@@ -3,6 +3,7 @@ layout: default
 title: 1-Cleaning Data
 nav_order: 2
 parent: Workshop Activities
+customjs: http://code.jquery.com/jquery-1.4.2.min.js
 ---
 
 # Cleaning Data With OpenRefine
@@ -29,8 +30,14 @@ parent: Workshop Activities
 8.  Our file organizes the data contained by tab-separated values (TSV). Under the **Parse data as** menu, select **CSV / TSV / separator-based files**.
 9.  Now that your import settings are set up, you can click **Create Project** in the top right corner.
 
-    <img src="images/2i.gif" alt="creating project" style="width:720px;">
 
+
+<button onclick="toggle('gif1')">Show/Hide Animation</button>
+<div id="gif1">
+      <img src="images/2i.gif" alt="creating project" style="width:720px;"><br>
+     </div> 
+
+    
 ### C) Exploring Your Data
 
 <img src="images/3c.png" alt="renaming column" style="float:right;width:360px;margin-left:10px;">
@@ -39,7 +46,11 @@ parent: Workshop Activities
 2.  Read through all the column headings and examine the data in the rows underneath. Do they make sense? Are there any typos?
 3.  The first column heading “??Title” has a typo in it. To change it, click the arrow next to the heading. In the drop-down box that appears, hover over **Edit column** and then select **Rename this column**. In the dialogue box that appears, change the column name to **"Title”** and select **OK**.
 
-    <img src="images/3cc.gif" alt="renaming column animated" style="width:720px;">
+<button onclick="toggle('gif2')">Show/Hide Animation</button>
+<div id="gif2">
+       <img src="images/3cc.gif" alt="renaming column animated" style="width:720px;"><br>
+     </div> 
+ 
 
 ### D) Undo / Redo
 
@@ -55,7 +66,11 @@ parent: Workshop Activities
 
     <img src="images/5a.png" alt="opening the facet filter menu" style="width:480px;">
 
-    <img src="images/5cc.gif" alt="filtering results" style="width:720px;">
+<button onclick="toggle('gif3')">Show/Hide Animation</button>
+<div id="gif3">
+        <img src="images/5cc.gif" alt="filtering results" style="width:720px;"><br>
+     </div> 
+   
 
 ### F) Clustering and Standardizing
 
@@ -70,7 +85,11 @@ parent: Workshop Activities
 
 5.  In the Language facet, you should now see only two choices: “eng” and “english”. You can also alter values directly in the facet. Let’s modify “eng” to read “english”. Hover your cursor over the “eng” option and click on the **edit** link that appears. In the text box that pops up, write “english”. Click **OK**.
 
-    <img src="images/6e.gif" alt="rename columns and merge" style="width:720px;">
+<button onclick="toggle('gif4')">Show/Hide Animation</button>
+<div id="gif4">
+         <img src="images/6e.gif" alt="rename columns and merge" style="width:720px;"><br>
+     </div> 
+
 
 ### G) Removing Blank Rows
 
@@ -84,7 +103,11 @@ parent: Workshop Activities
 3.  In the facet that appears, you should see 2165 values for which this condition is “True”, and 2164 values for which this facet is “False”. Since we want to remove rows that do not have an ID, let’s include only cells for which this condition is true. Hover your mouse over the true option, and select **include**.
 4.  Now we need to remove these blank rows from the data set. Click the dropdown arrow next to **All** (far left). Hover over **Edit rows** and select **Remove all matching rows**. This removes all rows that match our filter.
 
-    <img src="images/7dd.gif" alt="removing blank rows" style="width:720px;">
+<button onclick="toggle('gif5')">Show/Hide Animation</button>
+<div id="gif5">
+           <img src="images/7dd.gif" alt="removing blank rows" style="width:720px;"><br>
+     </div> 
+
 
 ### H) Splitting
 
@@ -96,16 +119,25 @@ parent: Workshop Activities
 4.  In the menu that appears, specify that column will be split by separator, and input a colon **“:”** into the text box.
 5.  Under the **After Splitting** heading, uncheck the **Remove this column** option. Click **OK**.
 
+
     <img src="images/8e.png" alt="split column pop up" style="width:480px;">
 
 6.  Two new columns will have been created called “Extent 1” and “Extent 2”.
 
-    <img src="images/8f.gif" alt="splitting columns animated" style="width:720px;">
+<button onclick="toggle('gif6')">Show/Hide Animation</button>
+<div id="gif6">
+           <img src="images/8f.gif" alt="splitting columns animated" style="width:720px;"><br>
+     </div> 
+    
 
 7.  Repeat this same process on the “Extent 2” column, this time specifying a semi-colon **“;”** as the separator character, and keep **Remove this column** checked.
 8.  Rename your 3 new columns as follows: **“Number of objects”, “Medium” and “Dimensions”**.
 
-    <img src="images/8h.gif" alt="splitting columns animated continued" style="width:720px;">
+<button onclick="toggle('gif7')">Show/Hide Animation</button>
+<div id="gif7">
+          <img src="images/8h.gif" alt="splitting columns animated continued" style="width:720px;"><br>
+     </div> 
+  
 
 ### I) Trimming Blank Spaces
 
@@ -113,7 +145,12 @@ parent: Workshop Activities
 2.  Click the drop-down arrow on the “Medium” column. Hover over **Edit cells -> Common transforms -> Trim leading and trailing whitespace**.
 3.  Repeat for the “Dimensions” column.
 
-    <img src="images/9c.gif" alt="trimming blank spaces animated" style="width:720px;">
+<button onclick="toggle('gif8')">Show/Hide Animation</button>
+<div id="gif8">
+          <img src="images/9c.gif" alt="trimming blank spaces animated" style="width:720px;">
+     </div> 
+
+    
 
 ### J) Joining
 
@@ -126,9 +163,12 @@ parent: Workshop Activities
 5.  To combine column information AND additional strings, use a “+.” For example: `value + " (" + cells['Number of objects'].value + ")"`
     -   Watch the preview area below to see the transformation. Click **OK** when satisfied with the result.
 
-    <img src="images/10e.gif" alt="combining columns animated" style="width:720px;">
+<button onclick="toggle('gif9')">Show/Hide Animation</button>
+<div id="gif9">
+          <img src="images/10e.gif" alt="combining columns animated" style="width:720px;">
+     </div> 
     
-    <img src="images/11b.png" alt="export" style="float:right;width:360px;margin-left:10px;">
+<img src="images/11b.png" alt="export" style="float:right;width:360px;margin-left:10px;">
 
 ### K) Saving and Exporting
 
@@ -136,4 +176,18 @@ parent: Workshop Activities
 2.  If you want to export your work in OpenRefine so that you can resume it on another computer, click the **Export** button in the top-right corner, then select **Export project**. You will have the option to save the file to a local directory, or to Google Drive.
 3.  If you are finished cleaning your data, you can choose to export a file with the current settings enabled. the Export button in the top-right corner, then select your preferred format (e.g. Excel (.xls), Tab-separated value, etc.).
 
-<br><br>[NEXT STEP: Test Yourself](act-2.html){: .btn .btn-blue }
+<br><br>
+
+<script>  
+
+    function toggle(input) {
+        var x = document.getElementById(input);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+
+[NEXT STEP: Test Yourself](act-2.html){: .btn .btn-blue }
