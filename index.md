@@ -13,8 +13,7 @@ nav_order: 1
 - Hands-on activities: 60 min
 
 ## Why OpenRefine?
-
-# **BETTER INTRO HERE**
+Anyone who has worked with large or historic datasets will know that standardizing data can be more time consuming and difficult than the actual analysis. OpenRefine is a free software that allows users to efficiently clean and transform their datasets, allowing for more time spent on meaningful analysis and less spreadsheet headaches. 
 
 ## Learning objectives
 
